@@ -57,10 +57,69 @@ header ul li a {
     text-decoration: none;
     padding: 38px 20px 0;
     color: #222;
-    transition: all ease .3s;
+    font-weight: 400;
+    transition: all ease .1s;
 }
 
 header ul li a:hover {
     color: #0065FC;
     border-top: 10px solid;
+    font-weight: 500;
+}
+
+/* SEARCH BOX */
+
+#search-box {
+    margin-top: 10px;
+}
+
+#search-box h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#search-box p {
+    margin-top: 8px;
+    font-size: inherit;
+    color: inherit;
+}
+
+#search-box form {
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+}
+
+#search-box form label {
+    height: 50px;
+    width: 50px;
+    border-radius: 12px 0 0 12px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-box form input {
+    min-width: 240px;
+    padding-left: 15px;
+    border: 1px solid #f2f2f2;
+    border-radius: 0;
+}
+
+#search-box form input::placeholder {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+}
+
+#search-box form button {
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 0 12px 12px 0;
+    cursor: pointer;
+    background-color: #0065FC;
 }
