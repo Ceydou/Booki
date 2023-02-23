@@ -1,0 +1,13 @@
+# Files we don't need
+
+.DS_Store
+
+/img/activites/1_xlarge/*
+/img/activites/2_large/*
+/img/activites/4_small/*
+
+/img/hebergements/1_xlarge/*
+/img/hebergements/2_large/*
+/img/hebergements/4_small/*
+
+/SRCs/*

@@ -1,0 +1,66 @@
+/* Styles CSS Projet Booki */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400;
+    color: #222;
+}
+
+#content {
+    max-width: 1368px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h1 a {
+    display: block;
+    width: 139px;
+    height: 100px;
+    background: url(../img/logo/booki.png) no-repeat;
+    background-size: 100px;
+    background-position: left center;
+    text-indent: -9999px;
+}
+
+/* Nav */
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 38px 20px 0;
+    color: #222;
+    transition: all ease .3s;
+}
+
+header ul li a:hover {
+    color: #0065FC;
+    border-top: 10px solid;
+}
