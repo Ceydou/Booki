@@ -123,3 +123,131 @@ header ul li a:hover {
     cursor: pointer;
     background-color: #0065FC;
 }
+
+.filters {
+    margin-top: 40px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.filters p {
+    margin: 0!important;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.filters ul {
+    margin-left: 30px;
+    display: flex;
+}
+
+.filters ul li {
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+.filters ul li a {
+    padding: 10px 15px;
+    color: #222;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 2.5px solid #f2f2f2;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.filters ul li a:hover {
+    background-color: #DEEBFF;
+}
+
+.filters ul li a i {
+    margin-right: 10px;
+    color: #0065FC;
+}
+
+.info {
+    margin-top: 30px!important;
+    display: flex;
+    align-items: center;
+}
+
+.info i {
+    margin-right: 10px;
+    color: #0065FC;
+    padding: 6px 9px;
+    border: 1px solid #f2f2f2;
+    border-radius: 50%;
+}
+
+/* HEBERGEMENTS */
+
+#hebergements {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hebergements .hebergements-ville {
+    padding: 30px;
+    width: 62.5%;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+}
+
+#hebergements .hebergements-ville h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#hebergements .hebergements-ville .box-of-cards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#hebergements .hebergements-ville .card {
+    min-width: 246px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+#hebergements .hebergements-ville .card img {
+    width: 100%;
+    height: 124px;
+    border-radius: 20px 20px 0 0;
+    background-color: #333;
+}
+
+#hebergements .hebergements-ville .card h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#hebergements .hebergements-ville .card p {
+    margin: 8px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#hebergements .hebergements-ville .card ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#hebergements .hebergements-ville .card ul li {
+    color: #f2f2f2
+}
+
+/*  */
+
+#hebergements .hebergements-populaires {
+    padding: 30px;
+    width: 32.5%;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+}
