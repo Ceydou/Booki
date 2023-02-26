@@ -203,11 +203,21 @@ header ul li a:hover {
 }
 
 #hebergements .hebergements-ville .box-of-cards {
-    margin-top: 20px;
+    margin: 20px 0 40px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px 0;
+}
+
+#hebergements .hebergements-ville .box-of-cards a {
+    text-decoration: none;
+    color: #222;
+    transition: transform .2s ease-out;
+}
+
+#hebergements .hebergements-ville .box-of-cards a:hover {
+    transform: translateY(-5px);
 }
 
 #hebergements .hebergements-ville .card {
@@ -232,6 +242,7 @@ header ul li a:hover {
     margin-top: 10px;
     font-size: 16px;
     font-weight: 700;
+    text-decoration: none;
 }
 
 #hebergements .hebergements-ville .card .card__content p {
@@ -253,6 +264,13 @@ header ul li a:hover {
 
 #hebergements .hebergements-ville .card .card__content .rating li i.ticked {
     color: #0065FC;
+}
+
+#hebergements .hebergements-ville button {
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
 }
 
 /*  */
