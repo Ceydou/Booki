@@ -190,6 +190,8 @@ header ul li a:hover {
     justify-content: space-between;
 }
 
+/* HEBERGEMENTS VILLE */
+
 #hebergements .hebergements-ville {
     padding: 30px;
     width: 62.5%;
@@ -230,8 +232,8 @@ header ul li a:hover {
 #hebergements .hebergements-ville .card img {
     width: 100%;
     height: 124px;
-    border-radius: 20px 20px 0 0;
-    background-color: #333;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 
 #hebergements .hebergements-ville .card .card__content {
@@ -273,11 +275,89 @@ header ul li a:hover {
     cursor: pointer;
 }
 
-/*  */
+/* HEBERGEMENTS POPULAIRES */
 
 #hebergements .hebergements-populaires {
     padding: 30px;
     width: 32.5%;
     border-radius: 20px;
     background-color: #f2f2f2;
+    position: relative;
+}
+
+#hebergements .hebergements-populaires .ico-chart {
+    padding: 35px 30px 0 0;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #0065FC;
+}
+
+#hebergements .hebergements-populaires .box-of-famous {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+}
+
+#hebergements .hebergements-populaires .box-of-famous a {
+    text-decoration: none;
+    color: #222;
+    transition: transform .2s ease-out;
+}
+
+#hebergements .hebergements-populaires .box-of-famous a:hover {
+    transform: translateY(-5px);
+}
+
+#hebergements .hebergements-populaires .card {
+    min-width: 343px;
+    height: 144px;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #fff;
+}
+
+#hebergements .hebergements-populaires .card img {
+    width: 132px;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+    object-fit: cover;
+}
+
+#hebergements .hebergements-populaires .card .card__content {
+    padding: 16px 32px 12px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#hebergements .hebergements-populaires .card .card__content h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+#hebergements .hebergements-populaires .card .card__content p {
+    margin: 8px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#hebergements .hebergements-populaires .card .card__content .rating {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    list-style-type: none;
+}
+
+#hebergements .hebergements-populaires .card .card__content .rating li {
+    margin-right: 2px;
+    font-size: 12px;
+    color: #f2f2f2
+}
+
+#hebergements .hebergements-populaires .card .card__content .rating li i.ticked {
+    color: #0065FC;
 }
