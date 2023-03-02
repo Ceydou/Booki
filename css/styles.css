@@ -227,6 +227,9 @@ header ul li a:hover {
     padding: 5px;
     border-radius: 20px;
     background-color: #fff;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
 }
 
 #hebergements .hebergements-ville .card img {
@@ -318,6 +321,9 @@ header ul li a:hover {
     border-radius: 20px;
     display: flex;
     background-color: #fff;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
 }
 
 #hebergements .hebergements-populaires .card img {
@@ -360,4 +366,59 @@ header ul li a:hover {
 
 #hebergements .hebergements-populaires .card .card__content .rating li i.ticked {
     color: #0065FC;
+}
+
+
+/* ACTIVITES */
+
+#activities {
+    margin-top: 60px;
+}
+
+#activities h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#activities .activities-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+#activities .activities-box a {
+    text-decoration: none;
+    transition: transform .2s ease-out;
+}
+
+#activities .activities-box a:hover {
+    transform: translateY(-5px);
+}
+
+#activities .activities-box .card {
+    height: 445px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+}
+
+#activities .activities-box .card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#activities .activities-box .card h3 {
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #222;
+    padding: 20px;
 }
